@@ -1,3 +1,19 @@
+@media screen and (max-width: 600px) {
+    .card{
+        flex-direction: column;
+        width: 250px;
+    }
+    .movie-description{
+        width:auto;
+        overflow: hidden;
+    }
+    .movie_cards{
+        overflow: hidden;
+    }
+    .full_body{
+        overflow: hidden;
+    }
+}
 body{
     box-sizing: border-box;
     margin: 0;
@@ -73,10 +89,4 @@ body{
     font-size: 15px;
     width: 200px;
     
-}
-@media screen and (max-width: 600px) {
-    .card{
-        flex-direction: column;
-        width: 250px;
-    }
 }
